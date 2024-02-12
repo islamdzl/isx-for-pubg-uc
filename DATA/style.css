@@ -1,0 +1,237 @@
+@font-face{font-family:"ar";src:url(/gitfile/DATA/font.woff/null/null/null)}
+*{
+    font-family:ar !important;
+    margin: 0;
+    padding: 0;
+}
+.form{
+    top: 30px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+    background-color: rgb(30, 30, 30);
+    margin: 25px auto 25px auto;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+.divT{
+    position: relative;
+    width: 95%;
+    height: 60px;
+    background: rgb(0, 0, 0);
+    margin: 15px auto 35px auto;
+    border-radius: 20px;
+    top: 20px;
+    display: flex;
+}
+h1{
+    position: relative;
+    width: auto;
+    height: 50px;
+    color: aliceblue;
+    top: 0px;
+}
+#ledF{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    transform: translate(155px , -25px);
+    transition: 300ms;
+}
+pre{
+    display: flex;
+    font-size: 40px;
+}
+pre h6{
+    font-size: 40px;
+    animation: dz 1s alternate infinite;
+}
+@keyframes dz{
+    0%{transform: rotate(-30deg);}
+    100%{transform: rotate(30deg);}
+}
+#F{
+    margin-left: 20px;
+    background: rgb(62, 62, 62);
+    padding: 5px 25px 0 10px;
+    top: 2px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.uesr{
+    position: relative;
+    width: 95%;
+    height: 345px;
+    background: rgb(8, 8, 8);
+    border-radius: 30px;
+    margin: 5px auto 5px auto;
+    transition: 1500ms;
+    display: block;
+    flex-wrap: wrap;
+}
+.yiu{
+    position: absolute;
+    width: 350px;
+    height: 180px;
+    top: 100px;
+    transform: translate(-50%);
+    left: 25%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    border:  3px yellow solid;
+    display: block;
+}
+
+.uesr h2{
+    position: relative;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    letter-spacing: 3px;
+}
+.rus{
+    position: relative;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 0px 10px 0 10px;
+    bottom: 0px;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    margin: 25px auto 5px auto;
+    top: 10px;
+}
+.it{
+    position: relative;
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+    left: 40%;
+}
+.btn{
+    background: rgb(0, 176, 12);
+    height: 50px;
+    width: auto;
+    margin: 5px 20px 0 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding:  0 15px 0 15px;
+}
+#b3{
+    position: relative;
+    background-color: rgb(55, 115, 255);
+    top: 5px;
+    margin:0 100px 0 0px;
+    transition: 500ms;
+}
+
+*{font-weight: 100;}
+.y{
+    display: block;
+}
+.btts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+.true{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 10px;
+    border:  3px blue solid;
+    font-size: 40px;
+    transition: 350ms;
+}
+.false{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10px;
+    border:  3px blue solid;
+    font-size: 40px;
+    transition: 350ms;
+}
+.true:hover{
+    border:  4px aliceblue solid;
+}
+.false:hover{
+    border:  4px aliceblue solid;
+}
+.TR{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 10px;
+    border:  3px blue solid;
+    font-size: 25px;
+    transition: 350ms;
+}
+.ctrue{
+    text-align: center;
+    width: auto;
+    height: 50px; 
+    margin: 10px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 10px;
+    border:  3px blue solid;
+    font-size: 40px;
+    transition: 350ms;
+    padding: 0 7px 0 7px;
+}
+.cfalse{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(89, 255, 0);
+    color: aliceblue;
+    border-radius: 10px;
+    border:  3px blue solid;
+    font-size: 40px;
+    transition: 350ms;
+    padding: 0 7px 0 7px;
+}
+
+.itrue{
+    position: absolute;
+    width: 50px;
+    height: 50px ;
+    top :275px;
+    right: 40px;
+    border-radius: 50%;
+    background: red;
+    transition: 300ms;
+}
+.ifalse{
+    position: absolute;
+    width: 50px;
+    height: 50px ;
+    top :275px;
+    right: 40px;
+    border-radius: 50%;
+    background: rgb(30, 255, 0);
+    transition: 300ms;
+}
+.LIVE{
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: 30px;
+}

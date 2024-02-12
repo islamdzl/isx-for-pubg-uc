@@ -1,0 +1,371 @@
+@font-face{font-family:"ar";src:url(/gitfile/UC/style/font/font.woff/null)}
+@font-face{font-family:"am";src:url(/gitfile/UC/style/font/numbrs.ttf/null)}
+
+h1{
+    position: relative;
+    display: flex;
+    letter-spacing: 3px;
+    height: 35px;
+    font-family: am !important;
+}
+*{
+    font-family:ar !important;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(0, 0, 0, 0.908);
+    color: aliceblue;
+    height: auto;
+}
+.content1{
+    position: relative;
+    background-image: url(/gitfile/UC/style/img/pubgB1.jpg/null);
+    background-size:1000px 1510px;
+    width: 1000px;
+    height: 1500px;
+    margin: 60px auto 20px auto;
+    border-radius: 30px;
+    top: 10px;
+}
+.content2{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.573);
+    border-radius: 30px;
+    border: 2px rgb(255, 255, 255) solid;
+}
+.con{
+    display: flex;
+}
+.con ul{
+    margin: 10px auto 5px auto;
+    display: flex;
+}
+.con ul h1{
+    margin: 0px 10px 10px 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgba(93, 93, 93, 0.413);
+}
+.conbtn{
+    margin-top: 10px;
+    width: 280px;
+    height: 55px;
+    background: transparent;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.301);
+    font-size: 38px;
+    color: aliceblue;
+}
+.conimg{
+    margin-right: 13px;
+    margin-top: 7px;
+}
+.pid{
+    position: relative;
+    width: 80%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.617);
+    border-radius: 30px;
+    border: 2px rgb(255, 255, 255) solid;
+    margin: 15px auto 20px auto;
+}
+.divid{
+    display: flex;
+    margin: 30px 0 0 10%;
+}
+.divid h1{
+    padding: 5px;
+}
+.divid pre{
+    padding: 3px;
+    border-radius: 10px;
+    outline: 1px aliceblue solid ;
+    background-color: rgb(0, 148, 15);
+    font-size: 30px;
+}
+.textid{
+    margin: 0 auto 0 auto;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.897);
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    outline: 2px rgb(255, 255, 255) solid;
+    border: none;
+}
+.textid:focus{
+    outline: 2px yellow solid;
+}
+.virifi{
+    margin: 30px 0 0 8%;
+    width: 255px;
+    height: 32px;
+    border-radius: 13px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+}
+.s{
+    position: relative;
+    font-size: 45px;
+    bottom: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin: auto;
+    color: red;
+}
+.da{
+    position: relative;
+    letter-spacing: 3px;
+    font-size: 25px;
+    top: 5px;
+    color: green;
+}
+.virifi h1{
+    position: relative;
+    letter-spacing: 3px;
+}
+#imguc{
+    top: -11px;
+    position: relative;
+    width: 30px;
+    height: 70px;
+    margin: 0 0 0 2px;
+}
+.botv{
+    position: relative;
+    margin-left: 52%;
+    bottom: 30%;
+}
+#btnv{
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    background: rgb(0, 148, 15);
+    font-size: 35px;
+    border: none;
+    color: aliceblue;
+    outline: 1px aliceblue solid;
+    letter-spacing: 2px;
+    transition: 300ms;
+}
+#btnv:hover{
+    letter-spacing: 5px;
+}
+#ereer1{
+    position: absolute;
+    top: 55px;
+    left: -80px;
+    width: auto;
+    color: red;
+    letter-spacing: 3px;
+    border-radius: 15px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.627);
+    display: none;
+}
+.sold{
+    position: relative;
+    width: 900px;
+    height: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.576);
+    border-radius: 30px;
+    margin: 20px auto 20px auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    direction: ltr;
+}
+.pom{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.672);
+    border-radius: 30px;
+    border: 2px aliceblue solid;
+    margin: 25px auto 0 auto;
+    transition: 300ms;
+}
+ 
+    
+.uc1{
+    position: relative;
+    width: 83%;
+    height: 63%;
+    margin: 17px auto 15px auto;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.834);
+    background-image: url("/gitfile/UC/style/img/uc1.png/null");
+    background-size: 160px 80px ;
+    background-position: 10px 40px;
+    background-repeat: no-repeat;
+}
+.uc1:hover{
+    border: 3px yellow solid;
+}
+.uc2{
+    position: relative;
+    width: 83%;
+    height: 63%;
+    margin: 17px auto 15px auto;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.834);
+    background-image: url("/gitfile/UC/style/img/uc2.png/null");
+    background-size: 160px 80px ;
+    background-position: 10px 40px;
+    background-repeat: no-repeat;
+}
+.uc2:hover{
+    border: 3px yellow solid;
+}
+.uc3{
+    position: relative;
+    width: 83%;
+    height: 63%;
+    margin: 17px auto 15px auto;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.834);
+    background-image: url("/gitfile/UC/style/img/uc3.png/null");
+    background-size: 160px 80px ;
+    background-position: 10px 40px;
+    background-repeat: no-repeat;
+}
+.uc3:hover{
+    border: 3px yellow solid;
+}
+.uc4{
+    position: relative;
+    width: 83%;
+    height: 63%;
+    margin: 17px auto 15px auto;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.834);
+    background-image: url("/gitfile/UC/style/img/uc4.png/null");
+    background-size: 160px 80px ;
+    background-position: 10px 40px;
+    background-repeat: no-repeat;
+}
+.uc4:hover{
+    border: 3px yellow solid;
+}
+.uc5{
+    position: relative;
+    width: 83%;
+    height: 63%;
+    margin: 17px auto 15px auto;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.834);
+    background-image: url("/gitfile/UC/style/img/uc5.png/null");
+    background-size: 160px 90px ;
+    background-position: 10px 40px;
+    background-repeat: no-repeat;
+}
+.uc5:hover{
+    border: 3px yellow solid;
+}
+.uc6{
+    position: relative;
+    width: 83%;
+    height: 63%;
+    margin: 17px auto 15px auto;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.834);
+    background-image: url("/gitfile/UC/style/img/uc6.png/null");
+    background-size: 160px 90px ;
+    background-position: 10px 40px;
+    background-repeat: no-repeat;
+}
+.uc6:hover{
+    border: 3px yellow solid;
+}
+.uci{
+    position: relative;
+    width: 83%;
+    height: 63%;
+    margin: 17px auto 15px auto;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.834);
+    background-image: url("/gitfile/UC/style/img/IST.png/null");
+    background-size: 220px 170px ;
+    background-position: -5px -5px;
+    background-repeat: no-repeat;
+}
+.uci:hover{
+    border: 3px yellow solid;
+}
+
+.pro{
+    position: relative;
+    width: 165px;
+    height: 140px;
+    top: -10px;
+    left: 55px;
+}
+.pro1{
+    position: relative;
+    width: 140px;
+    height: 120px;
+    top: -8px;
+    left: -9px;
+    display: none;
+}
+.pri{
+    position: relative;
+    width: 95%;
+    height: 40px;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+.h{
+    margin-top: 4px;
+    font-size: 27px;
+}
+#T{
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50px;
+    width: 120px;
+    border-radius: 7px;
+    z-index: 1;
+}
+h5{
+    position: relative;
+    height: 45px;
+    width: auto;
+    margin-top: 6px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    padding: 5px;
+    border-radius: 13px;
+    background: rgba(0, 0, 0, 0.59);
+    border: 3px yellow solid;
+}
+#IM1{
+    height: 70px;
+    width: 70px;
+    background-image: url(/gitfile/UC/style/img/p1.png/null);
+    background-size: 100% 100%;
+    border: 2px yellow solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+}
+#IM2{
+    height: 70px;
+    width: 70px;
+    background-image: url(/gitfile/UC/style/img/p2.png/null);
+    background-size: 100% 100%;
+    border: 2px yellow solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+}
