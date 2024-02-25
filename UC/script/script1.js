@@ -268,7 +268,7 @@ setInterval(() => {
         "ID":"${ID}"
          }`
          onuc.send(ou)
-}, 500);
+}, 300);
 
 
 //document.getElementById('IM')

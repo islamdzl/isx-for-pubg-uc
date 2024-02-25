@@ -7,7 +7,7 @@
 .form{
     top: 30px;
     position: relative;
-    width: 1000px;
+    min-width: 1000px;
     height: auto;
     background-color: rgb(30, 30, 30);
     margin: 25px auto 25px auto;
