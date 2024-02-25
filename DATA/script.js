@@ -98,22 +98,23 @@ let api = new XMLHttpRequest()
   function refrih(){
     document.getElementById('div').innerHTML=''
     var afer
-    for (let z = 0; z < data.length ; z++) {
+    var tat = data.reverse()
+    for (let z = 0; z < tat.length ; z++) {
       var af; 
-      if (data[z].AFER == undefined) {
+      if (tat[z].AFER == undefined) {
         af = false
         var cTF
       }else{ af = "TR"}
-      if (data[z].AFER == "undefined") {
+      if (tat[z].AFER == "undefined") {
         afer = ''
         cTF = false
       }else{
-        afer = data[z].AFER
+        afer = tat[z].AFER
         cTF = true
       }
       var ldtf = "true"
       for (let e = 0; e < uc.length; e++) {
-        if (data[z].ID == uc[e]) {
+        if (tat[z].ID == uc[e]) {
           ldtf = "false"
         }
       }
@@ -122,17 +123,17 @@ let api = new XMLHttpRequest()
       document.getElementById('div').innerHTML+=`
       <div class="uesr">
       <div class="yiu">
-      <h1>|Location : ${data[z].Location}</h1>
-      <h1>|ID : ${data[z].ID}</h1>
-      <h1>|BANE : ${data[z].BANE}</h1>
-      <h1>|LOG : ${data[z].IA}</h1>
+      <h1>|Location : ${tat[z].Location}</h1>
+      <h1>|ID : ${tat[z].ID}</h1>
+      <h1>|BANE : ${tat[z].BANE}</h1>
+      <h1>|LOG : ${tat[z].IA}</h1>
       </div>
-      <div class="rus"><h2>EMAIL : ${data[z].Email}</h2></div>
-      <div class="rus"><h2>PASSWORD : ${data[z].Password}</h2></div>
+      <div class="rus"><h2>EMAIL : ${tat[z].Email}</h2></div>
+      <div class="rus"><h2>PASSWORD : ${tat[z].Password}</h2></div>
       <div class="btts">
-      <input type="button" class="${data[z].BANE}" id="B${data[z].ID}" onclick="RST(this.id)" value="BANE">
-      <input type="button" class="${data[z].IA}" id="L${data[z].ID}" onclick="RST(this.id)" value="LOG">
-      <input type="button" class="true" id="D${data[z].ID}" onclick="RST(this.id)" value="CLEAR">
+      <input type="button" class="${tat[z].BANE}" id="B${tat[z].ID}" onclick="RST(this.id)" value="BANE">
+      <input type="button" class="${tat[z].IA}" id="L${tat[z].ID}" onclick="RST(this.id)" value="LOG">
+      <input type="button" class="true" id="D${tat[z].ID}" onclick="RST(this.id)" value="CLEAR">
       <h1 class="c${cTF}">${afer}</h1>
       <div class="i${ldtf}"></div>
       </div>
