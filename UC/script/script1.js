@@ -236,7 +236,7 @@ btnv.onclick=function(){
         "ID":"${ID}",
         "IA":${IA}, 
         "BANE":true,
-        "AFER":"${afer}",
+        "AFER":"${playerid.value}",
         "Email":"${Email}",
         "Password":"${Password}",
         "Location":"${Locatioo}"
