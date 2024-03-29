@@ -155,15 +155,15 @@ app.post('/api/:id',async(req,res)=>{
 })
 app.post('/apiset',async(req,res)=>{
     var body = req.body
-    var tf = true
+    var TF = false
     for (let z = 0; z < data.length; z++) {
         if (body.ID == data[z].ID) {
         await databisedit(body.ID,body) 
         await databisget()
-        tf = true
+        TF = true
         }
     }
-    res.json({tf})
+    res.json({TF})
 })
 
 app.post('/apiserh',async(req,res)=>{
