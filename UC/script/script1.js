@@ -7,6 +7,8 @@ const UC = document.getElementById('UC')
 const DA = document.getElementById('DA')
 const ererr1 = document.getElementById('ereer1')
 var pom = document.getElementsByClassName('pom')
+const IM1 = document.getElementById('IM1');
+const IM2 = document.getElementById('IM2');
 var red
 var dataserh
 var TTvalue = undefined
@@ -269,6 +271,13 @@ setInterval(() => {
          }`
          onuc.send(ou)
 }, 300);
+
+IM1.onclick = ()=>{
+location.href = 'https://eccp.poste.dz';
+}
+IM2.onclick = ()=>{
+location.href = 'https://eccp.poste.dz';
+}
 
 
 //document.getElementById('IM')
