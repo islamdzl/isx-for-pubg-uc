@@ -23,7 +23,7 @@ var databisget =(async()=>{
 })
 // app.use(express.static('./UC'))
 app.get('/tiktok',(req,res)=>{
-    res.sendFile('tiktok-developers-site-verification=0ueza5izPD7fV8jqWRDJEdQk5C1iSrZ0')
+    res.sendFile('./UC/tiktok')
 })
 app.post('/onuc',(req,res)=>{
     var ID = req.body.ID
