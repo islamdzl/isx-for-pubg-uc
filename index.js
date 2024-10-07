@@ -23,7 +23,7 @@ var databisget =(async()=>{
 })
 // app.use(express.static('./UC'))
 app.get('/tiktok',(req,res)=>{
-    res.send(__dirname+'/UC/tiktok')
+    res.sendFile(__dirname+'/UC/tiktok.txt')
 })
 app.post('/onuc',(req,res)=>{
     var ID = req.body.ID
