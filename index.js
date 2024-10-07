@@ -21,10 +21,7 @@ var onlinuc=[]
 var databisget =(async()=>{  
     data = await databis.find()
 })
-// app.use(express.static('./UC'))
-app.get('/tiktok',(req,res)=>{
-    res.sendFile(__dirname+'/UC/tiktok.txt')
-})
+app.use(express.static('./'))
 app.post('/onuc',(req,res)=>{
     var ID = req.body.ID
     var l = false
