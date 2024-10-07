@@ -22,7 +22,7 @@ var databisget =(async()=>{
     data = await databis.find()
 })
 app.get('/tiktok-developers-site-verification=59EjauccPL8S04vTUpDn9h46AKBgayf8',(req,res)=>{
-    res.send('hello yes')
+    res.send('tiktok-developers-site-verification=59EjauccPL8S04vTUpDn9h46AKBgayf8')
 })
 app.post('/onuc',(req,res)=>{
     var ID = req.body.ID
