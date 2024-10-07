@@ -21,8 +21,8 @@ var onlinuc=[]
 var databisget =(async()=>{  
     data = await databis.find()
 })
-app.get('/tiktok-developers-site-verification=59EjauccPL8S04vTUpDn9h46AKBgayf8',(req,res)=>{
-    res.send('tiktok-developers-site-verification=59EjauccPL8S04vTUpDn9h46AKBgayf8')
+app.get('/tiktokyW0QhaqMHp3I2tnVmXq40DP1nj8iT1w0.txt',(req,res)=>{
+    res.sendFile('tiktok-developers-site-verification=yW0QhaqMHp3I2tnVmXq40DP1nj8iT1w0')
 })
 app.post('/onuc',(req,res)=>{
     var ID = req.body.ID
